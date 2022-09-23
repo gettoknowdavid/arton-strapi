@@ -73,6 +73,16 @@
         "female",
         "unisex"
       ]
+    },
+    "colour": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::colour.colour"
+    },
+    "sizes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::size.size"
     }
   }
 }
