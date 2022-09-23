@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shop_tags",
+  "info": {
+    "displayName": "Tag",
+    "icon": "chess-bishop"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
