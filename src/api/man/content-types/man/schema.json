@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "men",
+  "info": {
+    "singularName": "man",
+    "pluralName": "men",
+    "displayName": "Men"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.seo"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category"
+    }
+  }
+}
