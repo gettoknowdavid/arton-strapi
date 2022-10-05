@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "code": {
+    "sizeCode": {
       "type": "string",
       "required": true,
       "minLength": 1,

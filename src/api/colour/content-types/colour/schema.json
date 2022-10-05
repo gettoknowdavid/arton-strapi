@@ -4,7 +4,8 @@
   "info": {
     "singularName": "colour",
     "pluralName": "colours",
-    "displayName": "Colour"
+    "displayName": "Colour",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -15,7 +16,7 @@
       "type": "string",
       "required": true
     },
-    "code": {
+    "hex": {
       "type": "string",
       "required": true
     }
