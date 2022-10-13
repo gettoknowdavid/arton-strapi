@@ -71,7 +71,8 @@
       "enum": [
         "male",
         "female",
-        "unisex"
+        "unisex",
+        "object"
       ]
     },
     "colour": {
